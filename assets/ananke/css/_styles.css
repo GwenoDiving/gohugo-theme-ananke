@@ -38,3 +38,56 @@
     display: block;
   }
 }
+
+/********************
+ * Submenu handling *
+ ********************/
+/* Menu abd submenu container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* Main menu elements */
+.dropbtn {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content ul {
+  padding: 0px 0px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #424242;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: flex;
+  position: absolute;
+  background-color: #525252;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #424242;
+}
