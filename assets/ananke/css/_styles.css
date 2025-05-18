@@ -96,3 +96,23 @@
 .dropdown:hover .dropbtn {
   background-color: #424242;
 }
+
+table {
+  border: solid 1px black;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #bbbbbb;
+}
+
+tbody {
+  box-shadow: 0 0 0 1px black;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+td {
+  border: dotted 1px #a0a0a0;
+  padding: 8px;
+}
